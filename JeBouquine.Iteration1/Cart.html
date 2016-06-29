@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/monStyle.css" rel="stylesheet" />
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">JeBouquine.tn</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="Index.html">JeBouquine.tn</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="Cart.html"><span class="fa fa-shopping-cart"></span>  <span class="badge">1</span></a></li>
+                    <li><a href="SignUp.html"><span class="fa fa-user"></span> S'inscrire</a></li>
+                    <li><a href="Login.html"><span class="fa fa-sign-in"></span> Se connecter</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="bs-carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="http://placehold.it/350x150" alt="First Slide">
+                    </div>
+                    <div class="item">
+                        <img src="http://placehold.it/350x150" alt="Second Slide">
+                    </div>
+                    <div class="item">
+                        <img src="http://placehold.it/350x150" alt="Third Slide">
+                    </div>
+                </div>
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="Index.html">Accueil</a></li>
+                <li><a href="Cart.html">Panier</a></li>
+            </ol>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="#">Littérature</a></li>
+                    <li class="list-group-item"><a href="#">Culture</a></li>
+                    <li class="list-group-item"><a href="#">société</a></li>
+                    <li class="list-group-item"><a href="#">IT</a></li>
+                </ul>
+            </div>
+            <div class="col-md-8 col-md-offset-1">
+                <div class="panel text-center">
+                    <table class="table">
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th>Prix</th>
+                            <th>Quantité</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td><img src="http://placehold.it/32x32"></td>
+                            <td>Handbook of Skull</td>
+                            <td>22 <i class="fa fa-eur"></i></td>
+                            <td>
+                                <div class="col-xs-4">
+                                    <input type="number" min="1" value="1" class="form-control" />
+                                </div>
+                            </td>
+                            <td><span class="glyphicon glyphicon-trash btn btn-xs btn-primary" data-toggle="tooltip" data-placement="top" title="Supprimer"></span></td>
+                        </tr>
+                        <tr>
+                            <td><img src="http://placehold.it/32x32"></td>
+                            <td>Handbook of Skull</td>
+                            <td>22 <i class="fa fa-eur"></i></td>
+                            <td>
+                                <div class="col-xs-4">
+                                    <input type="number" min="1" value="1" class="form-control" />
+                                </div>
+                            </td>
+                            <td><span class="glyphicon glyphicon-trash btn btn-xs btn-primary" data-toggle="tooltip" data-placement="top" title="Supprimer"></span></td>
+                        </tr>
+                        <tr>
+                            <td><img src="http://placehold.it/32x32"></td>
+                            <td>Handbook of Skull</td>
+                            <td>22 <i class="fa fa-eur"></i></td>
+                            <td>
+                                <div class="col-xs-4">
+                                    <input type="number" min="1" value="1" class="form-control" />
+                                </div>
+                            </td>
+                            <td><span class="glyphicon glyphicon-trash btn btn-xs btn-primary" data-toggle="tooltip" data-placement="top" title="Supprimer"></span></td>
+                        </tr>
+                    </table>
+                    <div>
+                        <form class="form-inline  pull-right">
+                          <span class="fa fa-refresh btn btn-xs btn-primary" data-toggle="tooltip" data-placement="top" title="Recalculer"></span>
+                            <div class="form-group">
+                                <h4>Total: 66 <i class="fa fa-eur"></i></h4>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="pull-left">
+                        <button class="btn btn-sm btn-primary"><span class="fa fa-shopping-cart"></span> Acheter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">&copy;JeBouquine.tn 2016</p>
+        </div>
+    </footer>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

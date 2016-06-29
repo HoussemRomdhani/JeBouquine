@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/monStyle.css" rel="stylesheet" />
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">JeBouquine.tn</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="Index.html">JeBouquine.tn</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="Cart.html"><span class="fa fa-shopping-cart"></span>  <span class="badge">1</span></a></li>
+                    <li><a href="SignUp.html"><span class="fa fa-user"></span> S'inscrire</a></li>
+                    <li><a href="Login.html"><span class="fa fa-sign-in"></span> Se connecter</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="Index.html">Accueil</a></li>
+                <li><a href="SignUp.html">Créer un compte</a></li>
+            </ol>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="#">Littérature</a></li>
+                    <li class="list-group-item"><a href="#">Culture</a></li>
+                    <li class="list-group-item"><a href="#">société</a></li>
+                    <li class="list-group-item"><a href="#">IT</a></li>
+                </ul>
+            </div>
+            <div class="col-md-8 col-md-offset-1">
+                <div class="panel">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label for="nom">Nom: </label>
+                            <input type="text" class="form-control" id="nom">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Mot de passe:</label>
+                            <input type="password" class="form-control" id="pwd">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd0">Confirmer votre mot de passe:</label>
+                            <input type="password" class="form-control" id="pwd0">
+                        </div>
+                        <button type="submit" class="btn btn-success btn-md">S'inscrire</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">&copy;JeBouquine.tn 2016</p>
+        </div>
+    </footer>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
